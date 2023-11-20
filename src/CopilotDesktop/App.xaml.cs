@@ -1,13 +1,14 @@
 ﻿using System;
 
-using Windows.ApplicationModel;
+using CopilotDesktop.Helpers;
+using CopilotDesktop.Services;
+
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Navigation;
 
 namespace CopilotDesktop
 {
@@ -18,7 +19,8 @@ namespace CopilotDesktop
     public App()
     {
       InitializeComponent();
-      Suspending += OnSuspending;
+
+      SettingsHelper.CreateSettings();
 
       Environment.SetEnvironmentVariable("WEBVIEW2_DEFAULT_BACKGROUND_COLOR", "0");
     }
@@ -39,8 +41,6 @@ namespace CopilotDesktop
 
         rootFrame = new Frame();
 
-        rootFrame.NavigationFailed += OnNavigationFailed;
-
         if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
         {
         }
@@ -57,17 +57,6 @@ namespace CopilotDesktop
 
         Window.Current.Activate();
       }
-    }
-
-    void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
-    {
-      throw new Exception("Failed to load Page " + e.SourcePageType.FullName);
-    }
-
-    private void OnSuspending(object sender, SuspendingEventArgs e)
-    {
-      var deferral = e.SuspendingOperation.GetDeferral();
-      deferral.Complete();
     }
   }
 }

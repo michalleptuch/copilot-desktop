@@ -4,7 +4,7 @@ using Windows.UI;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 
-namespace CopilotDesktop
+namespace CopilotDesktop.Services
 {
   internal class ThemeService
   {
@@ -52,7 +52,6 @@ namespace CopilotDesktop
       var blackHoverBackgroundColor = Color.FromArgb(24, 0, 0, 0);
       var blackPressedBackgroundColor = Color.FromArgb(16, 0, 0, 0);
 
-      //// Foreground
       titleBar.ButtonForegroundColor = isLightTheme ? blackForegroundColor : whiteForegroundColor;
       titleBar.ButtonHoverForegroundColor = isLightTheme ? blackForegroundColor : whiteForegroundColor;
       titleBar.ButtonPressedForegroundColor = isLightTheme ? blackPressedForegroundColor : whitePressedForegroundColor;
@@ -60,7 +59,6 @@ namespace CopilotDesktop
       titleBar.InactiveForegroundColor = grayColor;
       titleBar.ForegroundColor = isLightTheme ? blackForegroundColor : whiteForegroundColor;
 
-      //// Background
       titleBar.BackgroundColor = Colors.Transparent;
       titleBar.ButtonBackgroundColor = Colors.Transparent;
       titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
