@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotDesktop", "CopilotDesktop\CopilotDesktop.csproj", "{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM.Build.0 = Debug|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM64.Build.0 = Debug|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x64.ActiveCfg = Debug|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x64.Build.0 = Debug|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x64.Deploy.0 = Debug|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x86.ActiveCfg = Debug|x86
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x86.Build.0 = Debug|x86
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Debug|x86.Deploy.0 = Debug|x86
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM.ActiveCfg = Release|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM.Build.0 = Release|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM.Deploy.0 = Release|ARM
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM64.ActiveCfg = Release|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM64.Build.0 = Release|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|ARM64.Deploy.0 = Release|ARM64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x64.ActiveCfg = Release|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x64.Build.0 = Release|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x64.Deploy.0 = Release|x64
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x86.ActiveCfg = Release|x86
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x86.Build.0 = Release|x86
+		{8E333E23-1FAF-4F42-A93F-8DEDD2D9D514}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB3C23F6-7E37-4D9C-8A5A-EED4B5E2D416}
+	EndGlobalSection
+EndGlobal
