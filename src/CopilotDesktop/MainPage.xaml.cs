@@ -13,7 +13,7 @@ namespace CopilotDesktop
     private readonly Dictionary<string, string> Copilots = new Dictionary<string, string>
     {
       { Consts.WindowsCopilot, "https://edgeservices.bing.com/edgesvc/chat?&darkschemeovr=1&FORM=SHORUN&udscs=1&udsnav=1&setlang=en-US&udsedgeshop=1&clientscopes=noheader,coauthor,chat,visibilitypm,udsedgeshop,wincopilot,docvisibility,channelstable,udsinwin11,&copilotsupported=1,&browserversion=119.0.2151.72,&udsframed=1" },
-      { Consts.BingCopilot, "https://edgeservices.bing.com/edgesvc/chat?&darkschemeovr=1&FORM=SHORUN&udscs=1&udsnav=1&setlang=en-US&udsedgeshop=1&clientscopes=windowheader,coauthor,chat,visibilitypm,udsedgeshop,docvisibility,channelstable,udsinwin11,&copilotsupported=1,&browserversion=119.0.2151.72,&udsframed=1" },
+      { Consts.BingCopilot, "https://edgeservices.bing.com/edgesvc/chat?&darkschemeovr=1&FORM=SHORUN&udscs=1&udsnav=1&setlang=en-US&udsedgeshop=1&clientscopes=noheader,coauthor,chat,visibilitypm,udsedgeshop,docvisibility,channelstable,udsinwin11,&copilotsupported=1,&browserversion=119.0.2151.72,&udsframed=1" },
     };
 
     public MainPage()
